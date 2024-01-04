@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Service Catalog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        nav {
+            background-color: #2a2a2a;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #333;
+            color: #ffffff;
+            display: inline-block;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .service {
+            flex: 1;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #service1 {
+            border: 2px solid #e74c3c; /* Red */
+        }
+
+        #service2 {
+            border: 2px solid #2ecc71; /* Green */
+        }
+
+        #service3 {
+            border: 2px solid #3498db; /* Blue */
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Service Catalog</h1>
+    </header>
+
+    <nav>
+        <a href="#service1">Service 1</a>
+        <a href="#service2">Service 2</a>
+        <a href="#service3">Service 3</a>
+    </nav>
+
+    <section>
+        <div class="service" id="service1">
+            <h2>Service 1: Web Development</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ac enim fermentum, at aliquam quam tristique.</p>
+            <p>Pricing: $X per hour</p>
+        </div>
+
+        <div class="service" id="service2">
+            <h2>Service 2: Graphic Design</h2>
+            <p>Integer tincidunt felis nec libero fermentum, vel auctor odio fringilla. Nulla facilisi. Donec feugiat quam et risus malesuada, id efficitur ex cursus.</p>
+            <p>Pricing: $Y per project</p>
+        </div>
+
+        <div class="service" id="service3">
+            <h2>Service 3: IT Consulting</h2>
+            <p>Vestibulum id libero at mi cursus tincidunt. In hac habitasse platea dictumst. Curabitur eu fermentum leo. Nam vehicula, ex eu suscipit aliquet, elit metus tincidunt nisi, id dapibus tellus odio vel metus.</p>
+            <p>Pricing: Contact for a customized quote</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Service Catalog</p>
+    </footer>
+
+</body>
+</html>
